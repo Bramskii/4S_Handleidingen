@@ -7,12 +7,13 @@
 @endsection
 
 @section('content')
-
-    <h1>
-        @section('title')
-            {{ __('misc.all_brands') }}
-        @show
-    </h1>
+    <div class="all-brands">
+        <h1>
+            @section('title')
+                {{ __('misc.all_brands') }}
+            @show
+        </h1>
+    </div>
 
 
     <?php
