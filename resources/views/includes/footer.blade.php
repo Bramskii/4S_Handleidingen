@@ -1,6 +1,11 @@
 
 <footer>
-	© {{ __('misc.copyright') }}
+    <a href="">The virgin Islands</a>
+    <a href="">+31 6 52144603</a>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Youtube</a>
+    <div class="copyright">
+      © {{ __('misc.copyright') }} 
+    </div>
 </footer>
 
 

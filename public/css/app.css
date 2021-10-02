@@ -64,7 +64,19 @@ body {
   text-align: left;
   background-color: #f8fafc;
 }
-
+footer {
+  background-color: #343a40;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  left: 0px;
+  text-align: center;
+}
+footer a {
+  color: rgb(255, 255, 255);
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -10042,4 +10054,19 @@ footer{
   background-color: #343a40;
   color: white;
   padding: 15px;
+}
+.dataHandleidingen{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.button {
+  background-color: lightgrey; 
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
