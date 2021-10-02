@@ -43,41 +43,6 @@
   box-sizing: border-box;
 }
 
-
-/* dev tags */
-
-footer{
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  text-align: center;
-  background-color: #343a40;
-  color: white;
-  padding: 15px;
-}
-
-.col-md-8{
-  margin: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -99,7 +64,19 @@ body {
   text-align: left;
   background-color: #f8fafc;
 }
-
+footer {
+  background-color: #343a40;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  left: 0px;
+  text-align: center;
+}
+footer a {
+  color: rgb(255, 255, 255);
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -190,7 +167,7 @@ sup {
 }
 
 a {
-  color: #3490dc;
+  color: #362002;
   text-decoration: none;
   background-color: transparent;
 }
@@ -398,6 +375,9 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
   font-size: 2.25rem;
 }
+.all-brands {
+  background-color:#e9ecef;
+}
 
 h2, .h2 {
   font-size: 1.8rem;
@@ -578,7 +558,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
+  margin-right: 50px, auto;
   margin-left: auto;
 }
 
@@ -691,6 +671,7 @@ pre code {
 .col-4 {
   flex: 0 0 33.3333333333%;
   max-width: 33.3333333333%;
+  background-color: black;
 }
 
 .col-5 {
@@ -1109,6 +1090,7 @@ pre code {
   .col-md-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
+    background-color: #e9ecef;
   }
 
   .col-md-5 {
@@ -4038,6 +4020,8 @@ input[type=button].btn-block {
 
 .navbar-text {
   display: inline-block;
+  font-size: 30px;
+  font-weight: 100;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -10059,4 +10043,30 @@ h3 {
   padding: 0 5px;
   color: #ccc;
   content: "/ ";
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  padding: 15px;
+}
+.dataHandleidingen{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.button {
+  background-color: lightgrey; 
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
