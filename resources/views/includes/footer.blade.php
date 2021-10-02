@@ -2,11 +2,7 @@
 <footer>
     <a href="">The virgin Islands</a>
     <a href="">+31 6 52144603</a>
-<<<<<<< HEAD
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Youtube</a>
-=======
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ%22%3E">Youtube</a>
->>>>>>> 1ceda49e6a2ed9e699d91681a44216e3efef0638
     <div class="copyright">
       © {{ __('misc.copyright') }} 
     </div>
